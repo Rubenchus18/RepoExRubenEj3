@@ -5,6 +5,9 @@ import java.util.ArrayList;
 public class ClasePrincipal {
 	public static void main(String[]args) {
 		ArrayList<Integer>edad=new ArrayList();
+		rellenar(edad);
+		Analisisdeedad Principal=new Analisisdeedad(edad);
+		System.out.println(Principal);
 	}
 	ArrayList<Integer>edad=new ArrayList();
 	public static void rellenar(ArrayList<Integer>edad) {
